@@ -13,7 +13,7 @@ Node.js and Express for the back-end; and SQLite for database management.
 
 ## Project Status
 Currently, the project is in the initial setup phase. The front-end and back-end directories have been created,
-and some basic configurations are in place.
+and some basic front-end configurations are in place. Back-end does not exist yet.
 
 ## Setup
 To run this project locally, clone the repository and install the dependencies.
@@ -27,10 +27,6 @@ cd flashcards-app
 
 # Install dependencies for the front-end
 cd flashcards-frontend
-npm install
-
-# Install dependencies for the back-end (Assuming there's a package.json file)
-cd ../flashcards-backend
 npm install
 
 # Run the front-end development server
