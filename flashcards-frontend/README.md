@@ -1,8 +1,41 @@
-# React + Vite
+# Flashcards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+Flashcards App is a simple web-based application, where the user can create a custom flashcard set for learning.
 
-Currently, two official plugins are available:
+It's a personal project where I'm practising using the following technologies: React and Material UI for the front-end;
+Node.js and Express for the back-end; and SQLite for database management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- Front-End: React, Material UI
+- Back-End: Node.js, Express
+- Database: SQLite
+
+## Project Status
+Currently, the project is in the initial setup phase. The front-end and back-end directories have been created,
+and some basic configurations are in place.
+
+## Setup
+To run this project locally, clone the repository and install the dependencies.
+
+```bash
+# Clone the repository
+git clone https://github.com/lottasep/flashcards-app.git
+
+# Navigate to the project directory
+cd flashcards-app
+
+# Install dependencies for the front-end
+cd flashcards-frontend
+npm install
+
+# Install dependencies for the back-end (Assuming there's a package.json file)
+cd ../flashcards-backend
+npm install
+
+# Run the front-end development server
+cd ../flashcards-frontend
+npm run dev
+
+# The front-end will be available at localhost:3000 (or the port specified by Vite)
+
