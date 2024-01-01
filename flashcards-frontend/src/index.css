@@ -1,6 +1,6 @@
 /* Set up base font family and line-height for the entire app */
 :root {
-    font-family: Inter, system-ui, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
   }
   
